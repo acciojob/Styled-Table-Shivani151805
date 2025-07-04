@@ -6,9 +6,103 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="styles.css">
+	<style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #f4f4f4;
+      padding: 20px;
+      display: flex;
+      justify-content: center;
+    }
+
+    table {
+      border-collapse: collapse;
+      width: 90%;
+      max-width: 1000px;
+      border-radius: 12px;
+      overflow: hidden;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    }
+
+    thead {
+      background-color: #21587b;
+      color: white;
+    }
+
+    thead th {
+      padding: 16px;
+      text-align: left;
+      font-weight: 600;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+    }
+
+    tbody td {
+      padding: 14px 16px;
+      color: #333;
+    }
+
+    tbody tr:nth-child(even) {
+      background-color: #e0e0e0;
+    }
+
+    tbody tr:nth-child(odd) {
+      background-color: #fff;
+    }
+
+    tbody tr:hover {
+      background-color: #d3e0f0;
+    }
+  </style>
 </head>
 <body>
     <!-- add table here -->
+	<table>
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Kills</th>
+        <th>Saved</th>
+        <th>Deaths</th>
+        <th>Revives</th>
+        <th>Win</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Hackerman</td>
+        <td>10</td>
+        <td>0</td>
+        <td>1</td>
+        <td>0</td>
+        <td>0</td>
+      </tr>
+      <tr>
+        <td>Cool Doggo</td>
+        <td>13</td>
+        <td>4</td>
+        <td>8</td>
+        <td>7</td>
+        <td>1</td>
+      </tr>
+      <tr>
+        <td>Andrews</td>
+        <td>19</td>
+        <td>2</td>
+        <td>10</td>
+        <td>11</td>
+        <td>0</td>
+      </tr>
+      <tr>
+        <td>Strawberry</td>
+        <td>2</td>
+        <td>9</td>
+        <td>3</td>
+        <td>5</td>
+        <td>1</td>
+      </tr>
+    </tbody>
+  </table>
 
         
 </body>
